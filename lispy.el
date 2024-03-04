@@ -9548,7 +9548,6 @@ When ARG is non-nil, unquote the current string."
     (define-key map (kbd "M-DEL") 'lispy-backward-kill-word)
     ;; misc
     (define-key map (kbd "(") 'lispy-parens)
-    (define-key map (kbd ";") 'lispy-comment)
     (define-key map (kbd "M-q") 'lispy-fill)
     (define-key map (kbd "C-j") 'lispy-newline-and-indent)
     (define-key map (kbd "RET") 'lispy-newline-and-indent-plain)
